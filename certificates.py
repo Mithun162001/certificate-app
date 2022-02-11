@@ -32,7 +32,7 @@ if 'Coursera' in selected:
     if 'Google Crash Course on Python' in new_select:
         st.markdown("<a href='https://github.com/Mithun162001/My-Certificates/blob/main/Coursera/Google%20Crash%20Course%20Certificate.pdf'>GitHub Link</a>",unsafe_allow_html=True)
         st.markdown("<a href='coursera.org/verify/T7F6DP9J67B8'>Credentials</a>",unsafe_allow_html=True)
-        google = Image.open("C:\\Users\\mithun\\OneDrive\\Desktop\\My-Certificates\\Coursera\\google-image.png")
+        google = Image.open("https://github.com/Mithun162001/certificate-app/blob/main/images/google-image.png")
         st.image(google,caption="Crash Course on Python")
     if 'Google Data Analytics' in new_select:
         st.markdown("<a href='https://github.com/Mithun162001/My-Certificates/tree/main/Google%20Data%20Analytics'>GitHub Link</a>",unsafe_allow_html=True)
